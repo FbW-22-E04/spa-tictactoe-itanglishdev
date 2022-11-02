@@ -1,11 +1,15 @@
 import Square from './Square'
-import {Fragment} from 'react'
+import {Fragment, useState} from 'react'
 
 function Board() {
+
+
+  
     const renderSquare = (i) => {
       return <Square />;
     };
    
+    
   
   const status = "Next player: X";
   
